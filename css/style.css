@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: purple;
+}
+
+form {
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul{
+  border: 1px solid black;
+  float: left;
+  width: 7%;
+  padding: 0px;
+}
+
+ul li{
+  list-style: none;
+  padding: 5px 10px;
+  /* border-bottom: 1px solid black; */
+}
+
+.center{
+  width: 26%;
+}
+
+.country, .state{
+  width: 7%;
+}
+
+.location{
+  width: 20%;
+}
+
+.city{
+  width: 20%;
+}
+
+.zipcode{
+  width:12%;
+}
